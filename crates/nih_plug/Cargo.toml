@@ -27,6 +27,7 @@ standalone = [
   "dep:midir",
   "dep:rtrb",
 ]
+global_logger = []
 # Enables opengl support in standalone mode.
 # TODO: Send PR to baseview to derive Default for WindowOpenOptions so that
 # this isn't necessary.
